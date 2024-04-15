@@ -10,7 +10,7 @@ const ItemDetail = ({ items }) => {
       <h2>Item Detail</h2>
       {selectedItem && (
         <div>
-          <h3>{selectedItem.name}</h3>
+          <h1>{selectedItem.name}</h1>
           <p>{selectedItem.description}</p>
         </div>
       )}
